@@ -24,8 +24,8 @@
    - The data collected was trained using the *KNN Algorithm*. 
    - The model resulted in an impressive 92% accuracy.
 
-6. **Django API:**
-   - Something
-   - Something 
+6. **Deployment:**
+   - The model was deployed using Django; a python-based framework.
+   - The system is enhanced with a user friendly interface written in HTML and CSS.
    
 7. **Validation**:The machine learning model processes the glove data and generates prediction results using KNN the resluts are recorded and new data is collected again for some model enhancement.
