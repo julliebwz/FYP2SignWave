@@ -11,6 +11,7 @@
    - MPU6050 Gyroscope -> to meature the rotations and motions of the hand
    - ESP32 microcontroller -> get the inputs from sensor and transmit it to the cloud
    - wires and ristors -> connect the components
+     
 ![GOLVE](./glove.png)
 3. **Arduion IDE** 
    -> Data collected using 'CoolTerm' software which is converting the serial output into CSV in order to be proceed to python for some cleaning and processing
