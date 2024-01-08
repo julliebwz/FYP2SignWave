@@ -7,22 +7,22 @@
 
 1. **Design IoT Wearable glove**
    Components:
-   - 5 Flex sensors -> to measure the bending of the fingers
+   - 5 Flex sensors -> to measure the bending of the fingers.
    - MPU6050 Gyroscope -> to meature the rotations and motions of the hand
-   - ESP32 microcontroller -> get the inputs from sensor and transmit it to the cloud
-   - wires and ristors -> connect the components
+   - ESP32 microcontroller -> get the inputs from sensor and transmit it to the cloud.
+   - wires and ristors -> connect the components.
      
 ![GOLVE](./glove.png)
 
-3. **Arduion IDE**
+3. **Arduino IDE**
    
-   -> Data collected using 'CoolTerm' software which is converting the serial output into CSV in order to be proceed to python for some cleaning and processing
+   -> Data collected using 'CoolTerm' software which is converting the serial output into CSV in order to be proceed to python for some cleaning and processing.
    
-   -> Realtime Database  >> using *Firebase* for get the real time database and be used for the API to fetch real time readings using JSON format
+   -> Realtime Database  >> using *Firebase* for get the real time database and be used for the API to fetch real time readings using JSON format.
    
 5. **Model Building**
-   - data is being clean are preproceesed using *Numby*, *Pandas* framewroks
-   - Building the model using *KNN* with 92% accuracy
+   - The data collected was trained using the *KNN Algorithm*. 
+   - The model resulted in an impressive 92% accuracy.
 
 6. **Django API:**
    - Something
